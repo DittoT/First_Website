@@ -1,0 +1,42 @@
+:root {
+    --main-txt-color: #F9FAF8;
+    --main-txt-size: 48px;
+    --secondary-txt-color: #E5E7EB;
+    --secondary-txt-size: 18px;
+    --information-txt-size: 36px;
+    --information-txt-color: #1F2937;
+    --quote-txt-size: 36px;
+    --lightblue-bg-color: #3882F6;
+    --dark-bg-color: #1F2937;
+    --gray-bg-color: #E5E7EB;
+}
+
+body{
+    margin:0;
+    padding: 0;
+   display: flex;
+   flex-direction: column; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-bg-color);
+    color: white;
+    padding: 10px;
+}
+.header-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.link{
+    margin-right: 15px;
+    font-size: var(--secondary-txt-size);
+    color: var(--secondary-txt-color);
+}
+.logo{
+    margin-left: 80px;
+    font-size: 24px;
+    color: var(--main-txt-color);
+}
