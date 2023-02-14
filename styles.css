@@ -122,3 +122,22 @@ main{
     margin-top:5px;
     text-align: center;
 }
+.third-section{
+    
+    padding: 100px 300px 100px 300px;
+    background-color: var(--gray-bg-color);
+}
+.quote{
+    text-align: left;
+    font-size: var(--quote-txt-size);
+    color: var(--information-txt-color);
+    font-style: italic;
+    font-weight:lighter;
+
+    margin: 0;
+}
+.below-text{
+    margin: 0;
+    text-align:right;
+    font-weight: bold;
+}
