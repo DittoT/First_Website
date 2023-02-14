@@ -100,8 +100,8 @@ main{
 .information{
     display: flex;
     justify-content:center;
-    margin-left:200px;
-    margin-right: 200px;
+    margin-left:500px;
+    margin-right: 500px;
     margin-bottom: 50px;
     gap: 10px;
 }
@@ -123,7 +123,7 @@ main{
 }
 .third-section{
     
-    padding: 100px 300px 100px 300px;
+    padding: 100px 500px 100px 500px;
     background-color: var(--gray-bg-color);
 }
 .quote{
