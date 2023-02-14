@@ -48,22 +48,17 @@ main{
     flex-direction: column;
 }
 .first-section{
-    
     display:flex;
     justify-content: center;
     background-color: var(--dark-bg-color);
     padding-top: 25px;
     gap:50px;
-    padding-bottom: 100px;
-    
-    
+    padding-bottom: 100px;  
 }
 .first-left,
 .first-right{
     flex: 1;
-    max-width: 420px;
-    
-    
+    max-width: 420px;  
 }
 .first-left h1{
     font-size: var(--main-txt-size);
@@ -92,7 +87,6 @@ main{
     justify-content: center;
     background-color: gray;
 }
-
 .second-section h2{
     font-size: var(--information-txt-size);
     color: var(--information-txt-color);
@@ -110,7 +104,6 @@ main{
     margin-right: 200px;
     margin-bottom: 50px;
     gap: 10px;
-    
 }
 .info{
     display: flex;
@@ -139,7 +132,6 @@ main{
     color: var(--information-txt-color);
     font-style: italic;
     font-weight:lighter;
-
     margin: 0;
 }
 .below-text{
@@ -162,7 +154,6 @@ main{
     margin-bottom: 40px;
     flex: 3;
 }
-
 .sign-up-left h3, p{
     margin: 0;
     color: white;
