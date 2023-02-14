@@ -140,4 +140,43 @@ main{
     margin: 0;
     text-align:right;
     font-weight: bold;
+    color: black;
+}
+.fourth-section{
+    padding: 100px 150px 100px 150px;
+}
+.sign-up{
+    background-color: var(--lightblue-bg-color);
+    display: flex;
+    border-radius: 10px;
+}
+.sign-up-left{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex: 3;
+}
+
+.sign-up-left h3, p{
+    margin: 0;
+    color: white;
+}
+.sign-up-left p{
+    font-weight: lighter;
+}
+.sign-up-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-right input{
+    background-color: var(--lightblue-bg-color);
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
 }
