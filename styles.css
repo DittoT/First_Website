@@ -52,6 +52,7 @@ main{
     background-color: var(--dark-bg-color);
     padding-top: 25px;
     gap:50px;
+    padding-bottom: 100px;
     
     
 }
@@ -87,4 +88,37 @@ main{
     align-items: center;
     justify-content: center;
     background-color: gray;
+}
+
+.second-section h2{
+    font-size: var(--information-txt-size);
+    color: var(--information-txt-color);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.information{
+    display: flex;
+    justify-content:center;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    gap: 10px;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-image {
+    border: solid var(--lightblue-bg-color);
+    border-radius:10px;
+    width:150px;
+    height: 150px;
+}
+.info p{
+    margin-top:5px;
+    text-align: center;
 }
